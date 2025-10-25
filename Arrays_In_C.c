@@ -4,7 +4,7 @@ int main()
     int a = 10;
     float b = 20.5;
     char c = 'Z';
-    printf(" Variable \t Value \t tAddress \n");
+    printf(" Variable \t Value        \t Address \n");
     printf(" - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n");
     printf("a\t\t%d\t\t%p\n", a, &a);
     printf("b\t\t %.2f\t\t%p\n", b, &b);
